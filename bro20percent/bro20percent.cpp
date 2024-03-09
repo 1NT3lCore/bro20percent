@@ -67,6 +67,7 @@ bool isEqual(float a, float b, float epsilon) {
         std::cout << "Enter the number of elements in the array: ";
         std::cin >> n;
 
+
         float* arr = new float[n];
         float* ptr = arr;
         randomizeArray(arr, n);
@@ -85,7 +86,6 @@ bool isEqual(float a, float b, float epsilon) {
 
 
         std::cout << "Sum of integer parts after the last negative number: " << sumAfterNegative << std::endl;
-
 
         delete[] arr;
 
